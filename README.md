@@ -1,15 +1,13 @@
-# Clasificacion-de-Imagenes-Deep-Learning
-Proyecto de clasificación de imágenes con redes neuronales convolucionales
+# Image Classification - Deep Learning
+Image Classification Project with Convolutional Neural Networks
 
-Durante esta práctica he desarrollado múltiples modelos de clasificación de imágenes multiclase aplicando técnicas modernas de Deep Learning. El objetivo es evaluar diferentes enfoques y comprobar su impacto en la precisión sobre un conjunto de datos real proporcionado por Intel, compuesto por más de 17.000 imágenes de paisajes y escenas urbanas.
+In this project, I developed multiple multiclass image classification models applying modern Deep Learning techniques. The goal is to evaluate different approaches and test their impact on accuracy on a real-world dataset provided by Intel, consisting of over 17,000 images of landscapes and urban scenes.
 
-El flujo de trabajo incluye:
-* Un modelo base de red neuronal convolucional (CNN).
-* Un modelo extendido con capas adicionales y ajuste de hiperparámetros mediante keras_tuner.
-* Un modelo de Transfer Learning con VGG16, seguido de fine-tuning para afinar las capas profundas del modelo preentrenado.
-* Un modelo basado en técnicas de aumento de datos (ImageDataGenerator) para mejorar la generalización.
+The workflow includes:
 
-  
-He utilizado buenas prácticas como la validación cruzada con validation_split, early stopping, y el uso de flow_from_directory para evitar sobrecargar la memoria. 
-Todos los modelos han sido evaluados sobre un conjunto de test independiente (seg_test), alcanzando una precisión máxima del 85% con el modelo de aumento de datos.
-Este ejercicio no solo me ha servido para consolidar algunos de los conceptos aprendidos durante mi master en IA, sino que también ha producido un flujo de trabajo completo, reproducible y escalable, como parte de mi portfolio profesional como futuro ingeniero de IA.
+* A base convolutional neural network (CNN) model.
+* An extended model with additional layers and hyperparameter tuning using keras_tuner.
+* A transfer learning model with VGG16, followed by fine-tuning to fine-tune the deep layers of the pre-trained model.
+* A model based on data augmentation techniques (ImageDataGenerator) to improve generalization.
+
+I used best practices such as cross-validation with validation_split, early stopping, and the use of flow_from_directory to avoid memory overload. All models were evaluated on an independent test set (seg_test), achieving a maximum accuracy of 85% with the data augmentation model. This exercise not only helped me consolidate some of the concepts learned during my Master's degree in AI, but also produced a complete, reproducible, and scalable workflow as part of my professional portfolio as a future AI engineer.
